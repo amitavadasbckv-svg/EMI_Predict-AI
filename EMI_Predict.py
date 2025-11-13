@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 from  BusinessMethod import BusinessMethod
 
-data = pd.read_csv('emi_prediction_dataset (1).csv')
+data = pd.read_csv('https://drive.google.com/drive/u/1/my-drive/emi_prediction_dataset (1).csv')
 
 
 #data.insert(0, 'ID', range(1, len(data) + 1))
